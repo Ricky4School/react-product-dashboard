@@ -1,0 +1,700 @@
+{
+  "packageList": [
+    {
+      "id": 1,
+      "price": 480,
+      "packagePax": 1,
+      "freePax": 0,
+      "thumbnail": "img_package01.jpg",
+      "sequence": null,
+      "details": [
+        {
+          "languageId": 1,
+          "title": "Package A",
+          "includes": [
+            "Breakfast, Lunch & Hi-tea",
+            "Coffee / Tea & Snack",
+            "Resort Experience"
+          ],
+          "excludes": [
+            "Accommodation",
+            "Equipment Rental",
+            "Parking Charges (RM10 / day / vehicle)"
+          ]
+        },
+        {
+          "languageId": 2,
+          "title": "配套 A",
+          "includes": ["早餐、午餐及下午茶", "咖啡 / 茶与小吃", "度假村体验"],
+          "excludes": ["住宿", "潜水装备租赁", "停车费（RM10 / 天 / 车辆）"]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "price": 1920,
+      "packagePax": 4,
+      "freePax": 1,
+      "thumbnail": "img_package02.jpg",
+      "sequence": null,
+      "details": [
+        {
+          "languageId": 1,
+          "title": "Package B",
+          "includes": [
+            "Breakfast, Lunch & Hi-tea",
+            "Coffee / Tea & Snack",
+            "Resort Experience"
+          ],
+          "excludes": [
+            "Accommodation",
+            "Equipment Rental",
+            "Parking Charges (RM10 / day / vehicle)"
+          ]
+        },
+        {
+          "languageId": 2,
+          "title": "配套 A",
+          "includes": ["早餐、午餐及下午茶", "咖啡 / 茶与小吃", "度假村体验"],
+          "excludes": ["住宿", "潜水装备租赁", "停车费（RM10 / 天 / 车辆）"]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "price": 3360,
+      "packagePax": 7,
+      "freePax": 2,
+      "thumbnail": "img_package03.jpg",
+      "sequence": null,
+      "details": [
+        {
+          "languageId": 1,
+          "title": "Package C",
+          "includes": [
+            "Breakfast, Lunch & Hi-tea",
+            "Coffee / Tea & Snack",
+            "Resort Experience"
+          ],
+          "excludes": [
+            "Accommodation",
+            "Equipment Rental",
+            "Parking Charges (RM10 / day / vehicle)"
+          ]
+        },
+        {
+          "languageId": 2,
+          "title": "配套 A",
+          "includes": ["早餐、午餐及下午茶", "咖啡 / 茶与小吃", "度假村体验"],
+          "excludes": ["住宿", "潜水装备租赁", "停车费（RM10 / 天 / 车辆）"]
+        }
+      ]
+    }
+  ],
+  "scubaEquipment": [
+    {
+      "id": 1,
+      "name": "BCD",
+      "price": 40,
+      "sequence": null
+    },
+    {
+      "id": 2,
+      "name": "Dive Rite BCD",
+      "price": 100,
+      "sequence": null
+    },
+    {
+      "id": 3,
+      "name": "Regulator Set",
+      "price": 40,
+      "sequence": null
+    },
+    {
+      "id": 4,
+      "name": "Mask & Snorkel",
+      "price": 20,
+      "sequence": null
+    },
+    {
+      "id": 5,
+      "name": "Fins (Size S, M, L)",
+      "price": 20,
+      "sequence": null
+    },
+    {
+      "id": 6,
+      "name": "Booties (Size S, M, L)",
+      "price": 25,
+      "sequence": null
+    },
+    {
+      "id": 7,
+      "name": "Wetsuit",
+      "price": 35,
+      "sequence": null
+    },
+    {
+      "id": 8,
+      "name": "Dive Torch",
+      "price": 50,
+      "sequence": null
+    },
+    {
+      "id": 9,
+      "name": "Dive Computer",
+      "price": 50,
+      "sequence": null
+    },
+    {
+      "id": 10,
+      "name": "Dive Compass",
+      "price": 30,
+      "sequence": null
+    }
+  ],
+  "schedule": [
+    {
+      "id": 1,
+      "time": "7:00 AM",
+      "description": [
+        {
+          "languageId": 1,
+          "desc": "Depart from Dungun Jetty"
+        },
+        {
+          "languageId": 2,
+          "desc": "从龙运码头出发"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "time": "8:00 AM",
+      "description": [
+        {
+          "languageId": 1,
+          "desc": "Arrive at the resort and have breakfast"
+        },
+        {
+          "languageId": 2,
+          "desc": "抵达度假村，享用早餐"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "time": "8:50 AM",
+      "description": [
+        {
+          "languageId": 1,
+          "desc": "Get diving gear ready"
+        },
+        {
+          "languageId": 2,
+          "desc": "准备潜水装备"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "time": "9:00 AM",
+      "description": [
+        {
+          "languageId": 1,
+          "desc": "Depart on time for the first two dives"
+        },
+        {
+          "languageId": 2,
+          "desc": "准时出发进行前往两个潜水点"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "time": "12:30 PM",
+      "description": [
+        {
+          "languageId": 1,
+          "desc": "Lunch"
+        },
+        {
+          "languageId": 2,
+          "desc": "午餐"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "time": "2:00 PM",
+      "description": [
+        {
+          "languageId": 1,
+          "desc": "Prepare to depart for the third dive"
+        },
+        {
+          "languageId": 2,
+          "desc": "准备出发前往第三个潜水点"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "time": "3:30 PM",
+      "description": [
+        {
+          "languageId": 1,
+          "desc": "Hi-tea"
+        },
+        {
+          "languageId": 2,
+          "desc": "下午茶"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "time": "4:00 PM",
+      "description": [
+        {
+          "languageId": 1,
+          "desc": "Depart on time back to the jetty"
+        },
+        {
+          "languageId": 2,
+          "desc": "准时出发返回码头"
+        }
+      ]
+    }
+  ],
+  "SnorkellingDayTrip": {
+    "priceAdult": 355,
+    "priceChild": 185,
+    "details": [
+      {
+        "languageId": 1,
+        "title": "Package D",
+        "includes": [
+          "Breakfast, Lunch & Hi-tea",
+          "Coffee / Tea & Snack",
+          "Resort Experience"
+        ],
+        "excludes": [
+          "Accommodation",
+          "Equipment Rental",
+          "Parking Charges (RM10 / day / vehicle)"
+        ]
+      },
+      {
+        "languageId": 2,
+        "title": "配套 A",
+        "includes": ["早餐、午餐及下午茶", "咖啡 / 茶与小吃", "度假村体验"],
+        "excludes": ["住宿", "潜水装备租赁", "停车费（RM10 / 天 / 车辆）"]
+      }
+    ]
+  },
+  "SnorkellingSchedule": [
+    {
+      "id": 1,
+      "time": "7:00 AM",
+      "description": [
+        {
+          "languageId": 1,
+          "desc": "Depart from Dungun Jetty"
+        },
+        {
+          "languageId": 2,
+          "desc": "从龙运码头出发"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "time": "8:00 AM",
+      "description": [
+        {
+          "languageId": 1,
+          "desc": "Arrive at the resort and have breakfast"
+        },
+        {
+          "languageId": 2,
+          "desc": "抵达度假村，享用早餐"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "time": "8:50 AM",
+      "description": [
+        {
+          "languageId": 1,
+          "desc": "Get diving gear ready"
+        },
+        {
+          "languageId": 2,
+          "desc": "准备浮潜装备"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "time": "9:00 AM",
+      "description": [
+        {
+          "languageId": 1,
+          "desc": "Depart on time for the first snorkelling"
+        },
+        {
+          "languageId": 2,
+          "desc": "准时出发去第一个浮潜"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "time": "12:30 PM",
+      "description": [
+        {
+          "languageId": 1,
+          "desc": "Lunch"
+        },
+        {
+          "languageId": 2,
+          "desc": "午餐"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "time": "3:00 PM",
+      "description": [
+        {
+          "languageId": 1,
+          "desc": "Prepare to depart for the second snorkelling"
+        },
+        {
+          "languageId": 2,
+          "desc": "准备出发前往第二个浮潜"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "time": "3:30 PM",
+      "description": [
+        {
+          "languageId": 1,
+          "desc": "Hi-tea"
+        },
+        {
+          "languageId": 2,
+          "desc": "下午茶"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "time": "4:00 PM",
+      "description": [
+        {
+          "languageId": 1,
+          "desc": "Depart on time back to the jetty"
+        },
+        {
+          "languageId": 2,
+          "desc": "准时出发返回码头"
+        }
+      ]
+    }
+  ],
+  "dayTripTnc": [
+    {
+      "languageId": 1,
+      "sections": [
+        {
+          "title": "Booking & Payment",
+          "items": [
+            "All bookings are confirmed on a first-come, first-served basis and subject to availability upon receipt of full payment.",
+            "A minimum of three (3) certified divers is required to operate a trip.",
+            "Full payment is required at the time of booking to secure the Locked-in Date."
+          ]
+        },
+        {
+          "title": "Package Inclusions",
+          "items": [
+            "Each day trip includes three (3) scuba dives per boat.",
+            "Boat transfers are included in the dive package price.",
+            "A gratuity fee of RM5 per person per day is applicable and charged separately."
+          ]
+        },
+        {
+          "title": "Cancellation & No-Show Policy",
+          "items": [
+            {
+              "text": "Upon full payment confirmation:",
+              "children": [
+                "50% of the total package price will be forfeited for cancellations made more than fourteen (14) days prior to the Locked-in Date.",
+                "100% of the total package price will be forfeited for cancellations made within fourteen (14) days, including no-shows."
+              ]
+            },
+            {
+              "text": "No refunds will be provided for:",
+              "children": [
+                "Missed dives",
+                "Incomplete dive sessions",
+                "Late arrivals",
+                "Voluntary withdrawal from any dive activity"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Dive Operations",
+          "items": [
+            "Divers must arrive at the designated jetty by 6:45 AM for registration and safety briefing.",
+            "Late arrivals may result in automatic cancellation without refund to ensure operational safety and schedule integrity.",
+            "All participants under the same booking or package must participate on the same scheduled dive day."
+          ]
+        },
+        {
+          "title": "Safety, Health & Certification",
+          "items": [
+            "All divers must hold a valid and recognised scuba diving certification issued by an internationally recognised training agency.",
+            "Divers are required to truthfully declare their medical condition and sign a Liability Release & Assumption of Risk Form prior to participation.",
+            "The dive operator reserves the right to deny participation to any diver deemed medically unfit, uncertified, or unsafe to dive, without refund."
+          ]
+        },
+        {
+          "title": "Weather, Sea & Force Majeure",
+          "items": [
+            "Dive operations are subject to weather conditions, sea state, marine park regulations, and safety considerations.",
+            "The operator reserves the right to reschedule, modify dive sites, or cancel trips due to adverse conditions or force majeure events, in compliance with marine safety standards."
+          ]
+        },
+        {
+          "title": "Compliance & Management Rights",
+          "items": [
+            "By purchasing or redeeming any package, participants acknowledge and agree to comply with all safety, operational, and regulatory requirements prescribed by the operator.",
+            "Management reserves the absolute right to amend, vary, or withdraw these Terms & Conditions at any time without prior notice."
+          ]
+        }
+      ]
+    },
+    {
+      "languageId": 2,
+      "sections": [
+        {
+          "title": "预订与付款",
+          "items": [
+            "所有预订将以先到先得方式确认，并须在收到全额付款后视供应情况而定。",
+            "每趟行程至少需三（3）名持有有效认证的潜水员方可成行。",
+            "须于预订时完成全额付款，以锁定已确认的行程日期。"
+          ]
+        },
+        {
+          "title": "配套包含项目",
+          "items": [
+            "每趟一日行程每艘船包含三（3）次水肺潜水。",
+            "潜水配套价格已包含船只接送服务。",
+            "每日每人将另行收取 RM5 的服务小费。"
+          ]
+        },
+        {
+          "title": "取消与爽约政策",
+          "items": [
+            {
+              "text": "完成全额付款确认后：",
+              "children": [
+                "若于锁定日期十四（14）天前取消行程，将没收配套总价的 50%。",
+                "若于锁定日期十四（14）天内取消行程（包括爽约），将没收配套总价的 100%。"
+              ]
+            },
+            {
+              "text": "以下情况恕不退款：",
+              "children": [
+                "错过的潜水行程",
+                "未完成的潜水活动",
+                "迟到",
+                "自行中途退出任何潜水活动"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "潜水行程安排",
+          "items": [
+            "潜水员须于上午 6:45 前抵达指定码头，以进行登记及安全简报。",
+            "为确保行程安全及运作顺畅，迟到者可能被视为自动取消，且不予退款。",
+            "同一预订或配套下的所有参与者，必须于同一预定日期参加潜水活动。"
+          ]
+        },
+        {
+          "title": "安全、健康与认证",
+          "items": [
+            "所有潜水员必须持有由国际认可培训机构所颁发的有效水肺潜水认证。",
+            "潜水员须如实申报个人健康状况，并于参与前签署《免责与风险承担声明书》。",
+            "如潜水员被认定为健康不适、未持有效认证或存在安全风险，营运方有权拒绝其参与，且不予退款。"
+          ]
+        },
+        {
+          "title": "天气、海况与不可抗力",
+          "items": [
+            "潜水行程将视天气状况、海况、海洋公园规定及安全考量而定。",
+            "如遇恶劣天气或不可抗力事件，营运方有权根据海事安全标准重新安排、调整潜点或取消行程。"
+          ]
+        },
+        {
+          "title": "合规与管理权利",
+          "items": [
+            "凡购买或使用任何配套，即表示参与者同意遵守营运方所制定的所有安全、操作及监管规定。",
+            "管理层保留在无需事先通知的情况下，随时修订、更改或撤回本条款与细则的绝对权利。"
+          ]
+        }
+      ]
+    }
+  ],
+  "snorkellingTnc": [
+    {
+      "languageId": 1,
+      "sections": [
+        {
+          "title": "Booking & Payment",
+          "items": [
+            "All bookings are confirmed on a first-come, first-served basis and subject to availability upon receipt of full payment.",
+            "A minimum of three (3) participants is required to operate a trip.",
+            "Full payment is required at the time of booking to secure the Locked-in Date."
+          ]
+        },
+        {
+          "title": "Package Inclusions",
+          "items": [
+            "Each day trip includes two (2) guided snorkelling sessions at designated snorkelling sites.",
+            "Boat transfers are not included in the package price and shall be charged separately at RM135 per adult and RM75 per child.",
+            "A gratuity fee of RM5 per person per day is applicable and charged separately."
+          ]
+        },
+        {
+          "title": "Cancellation & No-Show Policy",
+          "items": [
+            {
+              "text": "Upon full payment confirmation:",
+              "children": [
+                "50% of the total package price will be forfeited for cancellations made more than fourteen (14) days prior to the Locked-in Date.",
+                "100% of the total package price will be forfeited for cancellations made within fourteen (14) days, including no-shows."
+              ]
+            },
+            {
+              "text": "No refunds will be provided for:",
+              "children": [
+                "Missed snorkelling sessions",
+                "Incomplete activities",
+                "Late arrivals",
+                "Voluntary withdrawal from any snorkelling activity"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Trip Operations",
+          "items": [
+            "Participants must arrive at the designated jetty by 6:45 AM for registration and safety briefing.",
+            "Late arrivals may result in automatic cancellation without refund to ensure operational safety and schedule integrity.",
+            "All participants under the same booking or package must participate on the same scheduled day."
+          ]
+        },
+        {
+          "title": "Safety & Health",
+          "items": [
+            "Participants must be medically fit and able to swim or float independently.",
+            "Participants are required to truthfully declare their medical condition and sign a Liability Release & Assumption of Risk Form prior to participation.",
+            "The operator reserves the right to deny participation to any individual deemed medically unfit or unsafe to participate, without refund."
+          ]
+        },
+        {
+          "title": "Weather, Sea & Force Majeure",
+          "items": [
+            "Snorkelling activities are subject to weather conditions, sea state, marine park regulations, and safety considerations.",
+            "The operator reserves the right to reschedule, modify activity locations, or cancel trips due to adverse conditions or force majeure events, in accordance with marine safety standards."
+          ]
+        },
+        {
+          "title": "Compliance & Management Rights",
+          "items": [
+            "By purchasing or redeeming any package, participants acknowledge and agree to comply with all safety, operational, and regulatory requirements prescribed by the operator."
+          ]
+        }
+      ]
+    },
+    {
+      "languageId": 2,
+      "sections": [
+        {
+          "title": "预订与付款",
+          "items": [
+            "所有预订将以先到先得方式确认，并须在收到全额付款后视供应情况而定。",
+            "每趟行程至少需三（3）名参与者方可成行。",
+            "须于预订时完成全额付款，以锁定已确认的行程日期。"
+          ]
+        },
+        {
+          "title": "配套包含项目",
+          "items": [
+            "每趟一日行程包含两（2）次由导游带领的浮潜活动。",
+            "配套价格不包含船只接送费用，船费将另行收取：成人 RM135，儿童 RM75。",
+            "每日每人将另行收取 RM5 的服务小费。"
+          ]
+        },
+        {
+          "title": "取消与爽约政策",
+          "items": [
+            {
+              "text": "完成全额付款确认后：",
+              "children": [
+                "若于锁定日期十四（14）天前取消行程，将没收配套总价的 50%。",
+                "若于锁定日期十四（14）天内取消行程（包括爽约），将没收配套总价的 100%。"
+              ]
+            },
+            {
+              "text": "以下情况恕不退款：",
+              "children": [
+                "错过的浮潜活动",
+                "未完成的行程内容",
+                "迟到",
+                "自行中途退出任何浮潜活动"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "行程安排",
+          "items": [
+            "参与者须于上午 6:45 前抵达指定码头，以进行登记及安全简报。",
+            "为确保行程安全及运作顺畅，迟到者可能被视为自动取消，且不予退款。",
+            "同一预订或配套下的所有参与者，必须于同一预定日期参加活动。"
+          ]
+        },
+        {
+          "title": "安全与健康",
+          "items": [
+            "参与者必须身体状况良好，并具备独立游泳或漂浮的能力。",
+            "参与者须如实申报个人健康状况，并于参与前签署《免责与风险承担声明书》。",
+            "如参与者被认定为健康不适或存在安全风险，营运方有权拒绝其参与，且不予退款。"
+          ]
+        },
+        {
+          "title": "天气、海况与不可抗力",
+          "items": [
+            "浮潜活动将视天气状况、海况、海洋公园规定及安全考量而定。",
+            "如遇恶劣天气或不可抗力事件，营运方有权根据海事安全标准重新安排、调整活动地点或取消行程。"
+          ]
+        },
+        {
+          "title": "合规与管理权利",
+          "items": [
+            "凡购买或使用任何配套，即表示参与者同意遵守营运方所制定的所有安全、操作及监管规定。"
+          ]
+        }
+      ]
+    }
+  ]
+}
