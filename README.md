@@ -40,21 +40,25 @@ npm run dev
 src/
  ├── components/
  │    └── Product/
- │         ├── ProductTable.tsx
- │         ├── SearchBar.tsx
  │         ├── Pagination.tsx
- │         └── ProductForm.tsx
+ │         ├── ProductForm.tsx
+ │         ├── ProductTable.tsx
+ │         └── SearchBar.tsx
  │
  ├── hooks/
  │    └── useProducts.ts
  │
  ├── services/
+ |    └── HttpClient.ts
  │    └── productService.ts
  │
  ├── pages/
  │    └── ProductPage.tsx
  │
  └── types/
+      └── Product
+            └── Response
+                  └── ProductResponse.ts
 ```
 
 ---
